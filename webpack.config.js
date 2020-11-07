@@ -16,7 +16,7 @@ module.exports={
         hot:true,
     },
     optimization:{
-        
+
     },
     module:{
         rules:[
@@ -32,7 +32,8 @@ module.exports={
                 plugins:[
                     "transform-vue-jsx",
                 ],
-                  presets:["env"]
+                  presets:[
+                      "@babel/preset-env"]
             }
             }
         }]
