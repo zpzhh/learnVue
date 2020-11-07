@@ -1,0 +1,50 @@
+{
+  "name": "learnvue",
+  "version": "1.0.0",
+  "description": "vue",
+  "main": "app.js",
+  "dependencies": {
+    "@babel/helpers": "^7.12.5",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.9",
+    "vuex": "^3.5.1",
+    "webpack": "^4.37.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "babel-preset-env": "^1.7.0",
+    "copy-webpack-plugin": "^6.3.0",
+    "html-webpack-plugin": "^3.2.0",
+    "path": "^0.12.7",
+    "punycode": "^2.1.1",
+    "querystring-es3": "^0.2.1",
+    "timers-browserify": "^2.0.12",
+    "vue-loader": "^15.9.5",
+    "vue-template-compiler": "^2.6.12",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "go": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zpzhh/learnVue.git"
+  },
+  "keywords": [
+    "vue",
+    "learn"
+  ],
+  "author": "zp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zpzhh/learnVue/issues"
+  },
+  "homepage": "https://github.com/zpzhh/learnVue#readme"
+}
